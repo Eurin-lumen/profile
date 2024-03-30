@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -22,10 +22,7 @@ header {
 h1, h2 {
     font-size: 24px;
     color: #333;
-}
-
-.profile-section {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .form-group {
@@ -36,23 +33,15 @@ label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #555;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-    width: calc(100% - 12px);
+    width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 6px;
-    transition: border-color 0.3s ease;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus {
-    border-color: #007bff;
 }
 
 button[type="submit"] {
@@ -70,23 +59,15 @@ button[type="submit"]:hover {
 }
 
 .message-section {
-    text-align: center;
+    margin-top: 30px;
 }
 
-.message {
-    padding: 10px;
-    border-radius: 6px;
-    margin-top: 20px;
+.success-message {
+    color: #28a745;
 }
 
-.success {
-    background-color: #d4edda;
-    color: #155724;
-}
-
-.error {
-    background-color: #f8d7da;
-    color: #721c24;
+.error-message {
+    color: #dc3545;
 }
 
 footer {
